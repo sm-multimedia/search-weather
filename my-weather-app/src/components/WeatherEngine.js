@@ -23,8 +23,8 @@ const WeatherEngine = ({location}) => {
         setLoading(true);
         setQuery("");
      try {
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${q}&units=metric&appid=86f58ffcf6dd3bad9e53b166269a3564`;
-  
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${q}&units=metric&appid=86f58ffcf6dd3bad9e53b166269a3564`;
+      
         const apiResquest = await fetch(url);
         const resJSON = await apiResquest.json();
         setWeather({

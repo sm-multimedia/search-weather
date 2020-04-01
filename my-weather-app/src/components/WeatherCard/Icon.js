@@ -54,7 +54,7 @@ const Icon = ({condition}) => {
             
             break;
         case 'Thunderstorm':
-            icon = `./Weather Icons/Thunderstorm-2x.png`
+            icon = `./Weather Icons/Scattered Thunderstorm-2x.png`
             
             break;
         default:
